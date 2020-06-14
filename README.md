@@ -10,7 +10,11 @@ _____________________________________
 - Game Design
 _____________________________________
 <b>Motivation:</b></br>
+Darstellung eines Perspektiven-Wechsels als Urwald Immersion
 _____________________________________
 <b>Game Design:</b></br>
+- Registrierung anhand der T-Pose
+- Bewegung des Spielers steuert Adler
+- Einsammeln von Ringen
 
 <img src="FlyingEagle_compressed.gif" width="480" height="270"/>
