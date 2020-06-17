@@ -6,7 +6,6 @@ public class Ring : MonoBehaviour {
 
     private Objective objectiveScript;
     private bool ringActive = false;
-
     private void Start()
     {
         objectiveScript = FindObjectOfType<Objective>();
@@ -21,8 +20,6 @@ public class Ring : MonoBehaviour {
     {
         //if the ring is active tell the objective script that it has been passed through
         if(ringActive){
-            AudioSource audio = GetComponent<AudioSource>();
-            audio.Play();
             objectiveScript.nextRing();
             Destroy(gameObject,2.0f);
         }

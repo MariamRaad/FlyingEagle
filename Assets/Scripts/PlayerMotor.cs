@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMotor : MonoBehaviour {
-
     private CharacterController controller;
-    private float baseSpeed = 10.0f;
-    private float rotSpeedX = 5.0f;
-    private float rotSpeedY = 5.0f;
+    public float baseSpeed = 10.0f;
+    public float rotSpeedX = 5.0f;
+    public float rotSpeedY = 5.0f;
 
 	// Use this for initialization
 	private void Start () {

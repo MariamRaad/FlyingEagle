@@ -23,8 +23,8 @@ public class Timer : MonoBehaviour {
             seconds = (int)(Time.timeSinceLevelLoad % 60f);
             counterText.text = "Zeit: " + minutes.ToString("00") + ":" + seconds.ToString("00");
         }
-
     }
+
     public void stopTimer(){
         playing = false;
     }
@@ -33,6 +33,7 @@ public class Timer : MonoBehaviour {
     {
         return minutes;
     }
+
     public float getSeconds()
     {
         return seconds;

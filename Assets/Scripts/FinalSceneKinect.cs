@@ -7,7 +7,6 @@ using UnityEngine.UI;
 
 public class FinalSceneKinect : MonoBehaviour
 {
-
     public GameObject BodySrcManager;
     public JointType LeftHand;
     public JointType RightHand;
@@ -28,17 +27,16 @@ public class FinalSceneKinect : MonoBehaviour
     private bool goingBack = false;
     private bool isButtonTriggered = false;
 
-
     // Use this for initialization
     void Start()
     {
-
         //grap the only canvasGroup in the scene
         fadeGroup = FindObjectOfType<CanvasGroup>();
         menuButton = GameObject.FindWithTag("menuButton");
 
         //start with a white screen
         fadeGroup.alpha = 1;
+
 
         //Timer anzeigen
         myTimer = GetComponent<Timer>();

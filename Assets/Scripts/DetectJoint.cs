@@ -5,6 +5,7 @@ using Windows.Kinect;
 
 public class DetectJoint : MonoBehaviour
 {
+     public MenuRegistration registrationData;
      public GameObject BodySrcManager;
      public JointType TrackedJoint;
      public float multiplier = 1.0f;
@@ -29,7 +30,6 @@ public class DetectJoint : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
         controller = GetComponent<CharacterController>();
 
         if (BodySrcManager == null)
@@ -41,14 +41,12 @@ public class DetectJoint : MonoBehaviour
             bodyManager = BodySrcManager.GetComponent<BodySrcManager>();
         }
         //setze Personen-Position = Adler-Position
-        /*
-        //TODO
-        //müsste das nicht heißen: bodyI = player.transform.position;
-        //die initiale Adler-Position wird auf die Position des Spielers gemapped
-        //Spieler bekommt Koordinaten vom Adler oder andersrum?
-        */
-        //bodyI = player.transform.position;
-        playerI = player.transform.position;
+        registrationData = GetComponent<MenuRegistration>();
+        Debug.Log("test " + registrationData.getNeckRegistration());
+        bodyI = registrationData.getNeckRegistration();
+        Debug.Log("registrierungsdaten aus menu auf bodyI: " + bodyI);
+        playerI = bodyI;
+        Debug.Log("registrierungsdaten aus menu auf PlayerI: " + playerI);
     }
 
     // Update is called once per frame
@@ -167,4 +165,4 @@ public class DetectJoint : MonoBehaviour
             }
         }
 
-    }
+}

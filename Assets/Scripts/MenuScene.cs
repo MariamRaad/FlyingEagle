@@ -12,7 +12,6 @@ public class MenuScene : MonoBehaviour
     private float fadeInDuration = 2;
     private bool gameStarted;
     private MenuCamera menuCam;
-    private GameObject player;
 
     //Fade in game from play button
     private bool isEnteringLevel = false;
@@ -21,40 +20,23 @@ public class MenuScene : MonoBehaviour
     public AnimationCurve enteringLevelZoomCurve;
     public RectTransform menuContainer;
 
-    private Color alphaColor;
-    private float timeToFade = 1.0f;
-
-   
 
     // Use this for initialization
     void Start()
     {
-
-
         //Find the only menucamera and assign it
         menuCam = FindObjectOfType<MenuCamera>();
-
-        //grap the only canvasGroup in the scene
-        fadeGroup = FindObjectOfType<CanvasGroup>();
-
-        //start with a white screen
-        fadeGroup.alpha = 1;
-        player = GameObject.FindWithTag("PlayerEagle");
-
-        alphaColor = player.GetComponent<MeshRenderer>().material.color;
-        alphaColor.a = 0;
     }
 
     //Update is called once per frame
     void Update()
     {
-
-        //fade in
+        
 
         //entering level zoom
-        if (isEnteringLevel)
-        {
-            fadeGroup.alpha = 1 - Time.timeSinceLevelLoad * fadeInSpeed;
+       // if (isEnteringLevel)
+       // {
+            //StartCoroutine(WaitUntilShowingEagle());
              
             ////add to the zoomtransition float
             //zoomTransition += (1 / zoomDuration) * Time.deltaTime;
@@ -70,16 +52,7 @@ public class MenuScene : MonoBehaviour
             //    //Enter the level
             //    SceneManager.LoadScene("Game");
             //}
-        }
+        //}
     }
-
-    public void OnPlayClick()
-    {
-        isEnteringLevel = true;
-        player.GetComponent<MeshRenderer>().material.color = Color.Lerp(player.GetComponent<MeshRenderer>().material.color, alphaColor, timeToFade * Time.deltaTime);
-        player.transform.localScale += new Vector3(50f, 50f, 50f);
-        Debug.Log("play clicked");
-    }
-
 
 }
