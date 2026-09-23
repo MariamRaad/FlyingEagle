@@ -1,4 +1,4 @@
-# FlyingEagle
+# Flying Eagle
 
 A 3D game where the player controls a flying eagle through body movements tracked by an XBOX Kinect sensor.
 
