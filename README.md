@@ -2,14 +2,13 @@
 
 A 3D game where the player controls a flying eagle through body movements tracked by an XBOX Kinect sensor.
 
-
 ## 📸 Showcase
 <img src="FlyingEagle_compressed.gif" width="480" height="270"/>
 
 <!-- More videos can be found here: https://drive.google.com/drive/folders/1l6MiXrx_4Gap-2XCi9wmQwVs3x5MICrZ?usp=sharing -->
 
 ## Summary
-This project was developed during the winter semester of 2018 as a collaborative project with several other students. The goal was to create an immersive jungle experience through a change in perspective.
+This project was developed during the winter semester of 2018 during my Master's studies as a collaborative project with several other students. The goal was to create an immersive jungle experience through a change in perspective.
 
 ## 🛠 Tech Stack
 Unity, C#, XBOX Kinect Sensor
