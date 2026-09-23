@@ -1,22 +1,25 @@
 # FlyingEagle
-3D Spiel mit Kinect Sensor</br>
-Dieses Projekt entstand im Wintersemester 2018. Bei der Entwicklung waren verschiedene Studierende beteiligt.</br>
-_____________________________________
-<b>Tech:</b></br>
-Unity, C#, XBOX Kinect Sensor
-_____________________________________
-<b>Meine Aufgaben:</b></br>
-- Entwicklung (Game Programming)
-- Game Design
-_____________________________________
-<b>Motivation:</b></br>
-Darstellung eines Perspektiven-Wechsels als Urwald Immersion
-_____________________________________
-<b>Game Design:</b></br>
-- Registrierung anhand der T-Pose
-- Bewegung des Spielers steuert Adler
-- Einsammeln von Ringen
 
+A 3D game where the player controls a flying eagle through body movements tracked by an XBOX Kinect sensor.
+
+
+## 📸 Showcase
 <img src="FlyingEagle_compressed.gif" width="480" height="270"/>
 
-Mehr Videos gibt es hier: https://drive.google.com/drive/folders/1l6MiXrx_4Gap-2XCi9wmQwVs3x5MICrZ?usp=sharing
+<!-- More videos can be found here: https://drive.google.com/drive/folders/1l6MiXrx_4Gap-2XCi9wmQwVs3x5MICrZ?usp=sharing -->
+
+## Summary
+This project was developed during the winter semester of 2018 as a collaborative project with several other students. The goal was to create an immersive jungle experience through a change in perspective.
+
+## 🛠 Tech Stack
+Unity, C#, XBOX Kinect Sensor
+
+## My Tasks
+- Game design
+- Game programming
+- Integration of audio and sound effects
+
+### 🎮 Game Design
+- Player registration using the famous T-pose
+- Leaning the upper body left or right moves the eagle in the corresponding direction
+- Collecting rings to gather points
