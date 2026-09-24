@@ -3,8 +3,10 @@
 A 3D game where the player controls a flying eagle through body movements tracked by an XBOX Kinect sensor.
 
 ## 📸 Showcase
-<img src="FlyingEagle_compressed.gif" width="480" height="270"/>
 
+<video src="https://github.com/user-attachments/assets/8b08dd41-a21b-4537-85a6-f201dda34622.mp4"></video>
+
+<!-- <img src="FlyingEagle_compressed.gif" width="480" height="270"/> -->
 <!-- More videos can be found here: https://drive.google.com/drive/folders/1l6MiXrx_4Gap-2XCi9wmQwVs3x5MICrZ?usp=sharing -->
 
 ## Summary
