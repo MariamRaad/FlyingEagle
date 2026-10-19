@@ -4,7 +4,9 @@ A 3D game where the player controls a flying eagle through body movements tracke
 
 ## 📸 Showcase
 
-<video src="https://github.com/user-attachments/assets/8b08dd41-a21b-4537-85a6-f201dda34622.mp4"></video>
+<!-- <video src="https://github.com/user-attachments/assets/8b08dd41-a21b-4537-85a6-f201dda34622.mp4"></video> -->
+https://github.com/user-attachments/assets/8b08dd41-a21b-4537-85a6-f201dda34622
+
 The music in the video is from: Bensound.com/royalty-free-music, Artist: Benjamin Tissot, Title: Instinct, License code: SHJ7PF7KE80TSRYT, Link: https://www.bensound.com/royalty-free-music/track/instinct
 
 <!-- <img src="FlyingEagle_compressed.gif" width="480" height="270"/> -->
